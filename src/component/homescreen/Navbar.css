@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  padding: 3em;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.navbar_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img[alt="li"] {
+  width: 20%;
+}
+img[alt="si"] {
+  width: 4%;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    top: -6%;
+  }
+  img[alt="li"] {
+    width: 40%;
+  }
+  img[alt="si"] {
+    width: 10%;
+  }
+}
