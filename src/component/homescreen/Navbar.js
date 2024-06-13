@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../Images/Netflix_logo_PNG1.png'
+import logo from '../Images/ffw.png'
 import smily from '../Images/smily.png'
 function Navbar() {
   return (

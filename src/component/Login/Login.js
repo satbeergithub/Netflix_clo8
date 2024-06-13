@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
-import logo from "../Images/Netflix_logo_PNG1.png";
+import logo from "../Images/ffw.png";
 import SignupScreen from "./SignupScreen";
 
 function Login() {
@@ -8,7 +8,7 @@ function Login() {
 
   const loginhandler = (e) => {
     e.preventDefault();
-    setloginpage(true);
+    setloginpage(true); 
   };
   const handleClose = () => {
     setloginpage(false);

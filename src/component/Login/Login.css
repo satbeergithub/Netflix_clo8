@@ -18,7 +18,7 @@
 }
 
 img[alt="li"] {
-  max-width: 8em;
+  max-width: 6em;
 }
 .login_header button {
   position: fixed;
